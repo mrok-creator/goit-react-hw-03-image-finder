@@ -1,3 +1,9 @@
+import ImgFinder from './ImgFinder';
+
 export const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <ImgFinder />
+    </div>
+  );
 };
