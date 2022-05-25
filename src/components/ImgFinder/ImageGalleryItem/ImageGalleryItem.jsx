@@ -10,4 +10,12 @@ function ImageGalleryItem({ webformatURL, tags, onClick, largeImage }) {
   );
 }
 
+ImageGalleryItem.PropTypes = {
+  webformatURL: PropTypes.string.isRequired,
+  largeImage: PropTypes.string.isRequired,
+  tags: PropTypes.string.isRequired,
+
+  onClick: PropTypes.func.isRequired,
+};
+
 export default ImageGalleryItem;
